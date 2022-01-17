@@ -331,17 +331,21 @@ a{
   @media only screen and (max-width: 517px) {
       .search{
           margin-top: 30px;
-          border: px;
-          margin-left: 5px;
+          border: none;
+          margin-left: 0px;
           margin-right: 5px;
-
       }
+      .search button{
+           display: none;
+      }
+      
       .box1{
           width: 384px;
           margin-top: 190px;
           height: fit-content;
-          margin-left: 5px;
+          margin-left: 0px;
           margin-right: 5px;
+          border: none;
       }
       .recent{
           display: none;
