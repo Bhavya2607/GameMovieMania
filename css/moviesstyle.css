@@ -72,6 +72,7 @@
         margin-top: 50px;
         height: fit-content;
         margin-left: 0px;
+        border: none;
     }
     #poster_img{
         width: 280px;
