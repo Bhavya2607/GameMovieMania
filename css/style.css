@@ -332,14 +332,16 @@ a{
       .search{
           margin-top: 30px;
           border: px;
-          margin-left: 50px;
+          margin-left: 5px;
+          margin-right: 5px;
 
       }
       .box1{
           width: 384px;
           margin-top: 190px;
           height: fit-content;
-          margin-left: -10px
+          margin-left: 5px;
+          margin-right: 5px;
       }
       .recent{
           display: none;
