@@ -339,6 +339,7 @@ a{
           width: 384px;
           margin-top: 190px;
           height: fit-content;
+          margin-left: -10px
       }
       .recent{
           display: none;
