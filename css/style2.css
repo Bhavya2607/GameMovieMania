@@ -379,7 +379,7 @@ border: 1px solid gray;
 
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media only screen and (max-width: 517px) {
+@media only screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -391,7 +391,7 @@ border: 1px solid gray;
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media only screen and (max-width: 517px) {
+  @media only screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -406,7 +406,7 @@ border: 1px solid gray;
   }
 
   /* Box 1 will me shifted below search box in screen less than 600px */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
       .search{
           margin-top: 30px;
           border: px;
@@ -439,4 +439,36 @@ border: 1px solid gray;
 
 
       
+  }
+
+@media screen and ( min-width: 799px ) and (max-width: 1200px) {
+    .box1{
+      width: 424px;
+      height: fit-content;
+  }
+  .container {
+    width: 384px;
+  }
+  .search{
+    margin-left: 500px;
+    background-color: transparent;
+  }
+  .recent{
+    margin-left: 500px;
+    background-color: transparent;
+  }
+  .main_box{
+   width: 424px;
+  }
+  #poster_img{
+    width: 340px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.screenshot_img{
+    width: 340px;
+    
+}
+  
+  
   }
