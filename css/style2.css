@@ -66,6 +66,8 @@ a{
     padding-left: 15px;
     padding-bottom: 15px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 26px;
+    font-weight: 400;
   }
 
 #terms{
